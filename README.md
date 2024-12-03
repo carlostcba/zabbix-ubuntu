@@ -37,7 +37,7 @@ Durante la instalación, se crean las siguientes configuraciones:
   - Contraseña: `@Lasalle2599`
 
 - Archivo de configuración: `/etc/zabbix/zabbix_server.conf`
-  - Línea modificada: `DBPassword=@Lasalle2599`
+  - Línea modificada: `DBPassword=password`
 
 ## Servicios
 
