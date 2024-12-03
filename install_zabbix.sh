@@ -30,7 +30,7 @@ sudo apt install -y zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf z
 # Configurar la base de datos MySQL
 echo "Configurando base de datos MySQL para Zabbix..."
 sudo mysql -e "CREATE DATABASE zabbix CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;"
-sudo mysql -e "CREATE USER 'zabbix'@'localhost' IDENTIFIED BY '@Lasalle2599';"
+sudo mysql -e "CREATE USER 'zabbix'@'localhost' IDENTIFIED BY 'password';"
 sudo mysql -e "GRANT ALL PRIVILEGES ON zabbix.* TO 'zabbix'@'localhost';"
 sudo mysql -e "SET GLOBAL log_bin_trust_function_creators = 1;"
 
